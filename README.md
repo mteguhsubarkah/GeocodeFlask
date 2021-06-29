@@ -1,6 +1,19 @@
 # GeocodeFlask Web Application
 A web app that utilizing flask. This app receive location that passed in HTTP requests to get the coordinate data. Then calculate the distance between Moscow Ring Road  and specified location
 
+**Project File Structure**
+flaskapp
+|
+----> __pycache__
+----> templates
+----> app.py
+----> data.xml
+----> geocodeFlask.log
+----> getCoordinate.py
+----> measureDistance.py
+----> test_getCoordinate.py
+----> test_measureDistance.py 
+
 **How to Run**
 1. This app is using yandex api, first go to app.py and see KEY_API variable
 You can change it by your own
@@ -68,4 +81,10 @@ You will see something like this on the shell
 ![image](https://user-images.githubusercontent.com/36868806/123754409-0d77d680-d8e5-11eb-9f91-248a333368aa.png)
 
 **XML File**
+XML file is a type file which the system will get after passing the specified location in HTTP requests.
 XML file will always updated, when the user is input a new location. The file is stored in ./flaskapp named data.xml
+
+
+**Logging**
+This flask application message is logged in geocodeFlask.log. The files will located in ./flaskapp.
+When the user start a new run of the flask, it will overwrite the geocodeFlask.log file. 
