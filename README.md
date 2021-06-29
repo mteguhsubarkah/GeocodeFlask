@@ -64,3 +64,6 @@ python -m unittest test_measureDistance.py
 
 You will see something like this on the shell
 ![image](https://user-images.githubusercontent.com/36868806/123754409-0d77d680-d8e5-11eb-9f91-248a333368aa.png)
+
+**XML File**
+XML file will always updated, when the user is input a new location. The file is stored in ./flaskapp named data.xml
