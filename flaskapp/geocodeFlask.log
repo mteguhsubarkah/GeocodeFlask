@@ -1,9 +1,0 @@
-2021-06-29 16:40:35,474 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2021-06-29 16:40:40,483 DEBUG urllib3.connectionpool Thread-2 : Starting new HTTPS connection (1): geocode-maps.yandex.ru:443
-2021-06-29 16:40:42,215 DEBUG urllib3.connectionpool Thread-2 : https://geocode-maps.yandex.ru:443 "GET /1.x/?apikey=8bfc2849-a789-4584-bd57-04f0e286fe5e&geocode=Madrid HTTP/1.1" 200 None
-2021-06-29 16:40:42,262 INFO app Thread-2 : Info level log
-2021-06-29 16:40:42,278 INFO werkzeug Thread-2 : 127.0.0.1 - - [29/Jun/2021 16:40:42] "POST / HTTP/1.1" 200 -
-2021-06-29 16:40:54,339 DEBUG urllib3.connectionpool Thread-4 : Starting new HTTPS connection (1): geocode-maps.yandex.ru:443
-2021-06-29 16:40:55,637 DEBUG urllib3.connectionpool Thread-4 : https://geocode-maps.yandex.ru:443 "GET /1.x/?apikey=8bfc2849-a789-4584-bd57-04f0e286fe5e&geocode=England HTTP/1.1" 200 None
-2021-06-29 16:40:55,643 INFO app Thread-4 : Info level log
-2021-06-29 16:40:55,644 INFO werkzeug Thread-4 : 127.0.0.1 - - [29/Jun/2021 16:40:55] "POST / HTTP/1.1" 200 -
