@@ -6,7 +6,8 @@ A web app that utilizing flask. This app receive location that passed in HTTP re
 You can change it by your own
 
 2. To use it open Command Prompt and direct to the flaskapp folder
-![image](https://user-images.githubusercontent.com/36868806/123751746-406c9b00-d8e2-11eb-8e0e-e834008c0767.png)
+![image](https://user-images.githubusercontent.com/36868806/123754529-326c4980-d8e5-11eb-978b-633cb4514266.png)
+
 
 3. Execute by type **flask run** on command prompt
 ![image](https://user-images.githubusercontent.com/36868806/123751979-8b86ae00-d8e2-11eb-8c5a-86ec3902d0ed.png)
