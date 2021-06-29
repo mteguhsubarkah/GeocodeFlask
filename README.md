@@ -14,7 +14,7 @@ You can change it by your own
 
 
 4. You will see something like this in your command prompt
-![image](https://user-images.githubusercontent.com/36868806/123752044-a3f6c880-d8e2-11eb-9d06-4297354096e9.png)
+![image](https://user-images.githubusercontent.com/36868806/123755175-db1aa900-d8e5-11eb-955e-e90abdf1c80e.png)
 
 5. Then the app will hosted locally, and you can access it on your browser with address : **127.0.0.1:5000**
 Here is what your browser show after access it
