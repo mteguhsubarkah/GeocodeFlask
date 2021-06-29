@@ -81,11 +81,11 @@ python -m unittest test_measureDistance.py
 You will see something like this on the shell
 ![image](https://user-images.githubusercontent.com/36868806/123754409-0d77d680-d8e5-11eb-9f91-248a333368aa.png)
 
-**XML File**
+**XML File**  
 XML file is a type file which the system will get after passing the specified location in HTTP requests.
 XML file will always updated, when the user is input a new location. The file is stored in ./flaskapp named data.xml
 
 
-**Logging**
+**Logging** 
 This flask application message is logged in geocodeFlask.log. The files will located in ./flaskapp.
 When the user start a new run of the flask, it will overwrite the geocodeFlask.log file. 
