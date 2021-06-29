@@ -24,7 +24,7 @@ import getCoordinate as getCoor
 app = Flask(__name__)
 
 #Define logger
-logging.basicConfig(filename='geocodeflask.log',
+logging.basicConfig(filename='geocodeFlask.log',
 level=logging.DEBUG,format='%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
 
 #API key for http requests, got from yandex API
