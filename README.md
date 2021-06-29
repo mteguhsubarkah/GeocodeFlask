@@ -1,18 +1,19 @@
 # GeocodeFlask Web Application
 A web app that utilizing flask. This app receive location that passed in HTTP requests to get the coordinate data. Then calculate the distance between Moscow Ring Road  and specified location
 
-**Project File Structure**
-flaskapp
-|
-├── __pycache__
-├── templates
-├── app.py
-├── data.xml
-├── geocodeFlask.log
-├── getCoordinate.py
-├── measureDistance.py
-├── test_getCoordinate.py
-├── test_measureDistance.py 
+**Project File Structure**  
+
+flaskapp    
+.   
+├── __pycache__             #pycache folder                         
+├── templates               #html files source code     
+├── app.py                  #main program       
+├── data.xml                #response file from HTTP request        
+├── geocodeFlask.log        #Messag log         
+├── getCoordinate.py        #get coordinate position of specified location  
+├── measureDistance.py      #Measure or calculate distance between Moscow Ring Road to specified location   
+├── test_getCoordinate.py   #unittest for getCoordinate.py      
+├── test_measureDistance.py #unittest for measureDistance.py 
 
 **How to Run**
 1. This app is using yandex api, first go to app.py and see KEY_API variable
