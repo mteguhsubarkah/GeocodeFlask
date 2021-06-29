@@ -4,15 +4,15 @@ A web app that utilizing flask. This app receive location that passed in HTTP re
 **Project File Structure**
 flaskapp
 |
-----> __pycache__
-----> templates
-----> app.py
-----> data.xml
-----> geocodeFlask.log
-----> getCoordinate.py
-----> measureDistance.py
-----> test_getCoordinate.py
-----> test_measureDistance.py 
+├── __pycache__
+├── templates
+├── app.py
+├── data.xml
+├── geocodeFlask.log
+├── getCoordinate.py
+├── measureDistance.py
+├── test_getCoordinate.py
+├── test_measureDistance.py 
 
 **How to Run**
 1. This app is using yandex api, first go to app.py and see KEY_API variable
