@@ -9,7 +9,7 @@ and specified location
 Position point is extracted by getCoordinate.py, so the file is imported here and
 Distance is calculated by measureDistance.py, which also imported here
 
-This program is loged into 'geocodeflask.log'
+This program is loged into 'geocodeFlask.log'
 '''
 
 #import Library
